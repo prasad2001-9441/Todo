@@ -1,0 +1,70 @@
+.container {
+  position: absolute;
+  padding: 30px;
+  display: table-row;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  word-wrap: break-word;
+}
+.textarea {
+  position: fixed;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(128, 128, 128);
+  text-decoration: rgb(128, 128, 128);
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200%;
+  word-wrap: break-word;
+  top: 60px;
+  left: 340px;
+}
+.task-inputs {
+  position: fixed;
+  background-color: white;
+  width: 30%;
+  float: left;
+  padding: 15px;
+  border: 2px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  top: 30px;
+  left: 340px;
+}
+.tasks {
+  width: 30%;
+  float: left;
+  padding: 15px;
+  border: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.remove {
+  border: none;
+  outline: none;
+  display: flex;
+}
+.edit {
+  border: none;
+  outline: none;
+  width: 3px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+i {
+  padding-right: 10px;
+}
+input[type="checkbox"]{
+  background-color: white;
+  accent-color: gray;
+  
+}
